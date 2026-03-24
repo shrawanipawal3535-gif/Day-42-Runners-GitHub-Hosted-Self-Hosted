@@ -71,3 +71,15 @@
 2. Update your workflow to use runs-on: [self-hosted, my-linux-runner]
 
 3. Trigger it — does it still pick up the job?
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/83cb553c-2e50-4cb1-8ef0-9357e358ccfe" />
+
+### Task 6: GitHub-Hosted vs Self-Hosted
+
+|-----| GitHub-Hosted|Self-Hosted|
+|------|-----|-----|
+|Who manages it?|GitHub manages|You manage|
+|Cost|Free|You pay for your machine|
+|Pre-installed tools|Already installed|You install everything|
+|Good for|simple projects|Custom setup|
+|Security concern|Less control over machine|Full control but your responsibility|
