@@ -45,3 +45,19 @@
    - Your local machine, OR
    - A cloud VM (EC2, Utho, or any VPS)
 4. Start the runner — verify it shows as Idle in GitHub
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/36bb82a5-5afc-4fc2-b878-e1e6ceb378df" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/f3bc1226-1bbd-4896-be04-9a73c141fbd1" />
+
+### Task 4: Use Your Self-Hosted Runner
+
+1. Create .github/workflows/self-hosted.yml
+ 
+2. Set runs-on: self-hosted
+   
+3. Add steps that:
+    - Print the hostname of the machine (it should be YOUR machine/VM)
+     - Print the working directory
+     - Create a file and verify it exists on your machine after the run
+   
+4. Trigger it and watch it run on your own hardware
