@@ -61,3 +61,13 @@
      - Create a file and verify it exists on your machine after the run
    
 4. Trigger it and watch it run on your own hardware
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/5e2c2d0b-7325-4331-b3ee-6a0acf460804" />
+
+## Task 5: Labels
+
+1. Add a label to your self-hosted runner (e.g., my-linux-runner)
+
+2. Update your workflow to use runs-on: [self-hosted, my-linux-runner]
+
+3. Trigger it — does it still pick up the job?
